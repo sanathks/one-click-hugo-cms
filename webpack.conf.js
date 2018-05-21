@@ -1,6 +1,9 @@
 import webpack from "webpack";
 import path from "path";
 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+
 export default {
   module: {
     loaders: [
@@ -16,14 +19,16 @@ export default {
       }
     ]
   },
-
+  context: path.join(__dirname, "src"),
   plugins: [
     new webpack.ProvidePlugin({
-      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
-    })
+      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch",
+    }),
+    new CopyWebpackPlugin([
+        { from: 'js' },
+        { from: 'fonts' },
+    ])
   ],
-
-  context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"],
     cms: ["./js/cms"]
