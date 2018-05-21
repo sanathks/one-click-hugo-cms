@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42e0440d-8cb5-4a76-b7ff-cdc71682c0f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/_default/baseof.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/_default/li.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/_default/li.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/_default/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/layouts/partials/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/post/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/post/single.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,17 +26,58 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/layouts/partials/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="736">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseof.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/layouts/_default/baseof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="li.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/layouts/_default/li.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/layouts/_default/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="49" lean-forward="true" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/layouts/post/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/layouts/_default/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/plugin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="1156" column="354" selection-start-line="1156" selection-start-column="354" selection-end-line="1156" selection-end-column="354" />
+            <state relative-caret-position="38">
+              <caret line="1154" column="74" selection-start-line="1154" selection-start-column="74" selection-end-line="1154" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -88,8 +126,11 @@
         <option value="$PROJECT_DIR$/webpack.conf.js" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/js/scripts.js" />
-        <option value="$PROJECT_DIR$/site/layouts/partials/blog.html" />
         <option value="$PROJECT_DIR$/src/css/plugin.css" />
+        <option value="$PROJECT_DIR$/site/layouts/_default/li.html" />
+        <option value="$PROJECT_DIR$/site/layouts/partials/blog.html" />
+        <option value="$PROJECT_DIR$/site/layouts/_default/single.html" />
+        <option value="$PROJECT_DIR$/site/layouts/post/single.html" />
       </list>
     </option>
   </component>
@@ -138,6 +179,26 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="_default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -195,12 +256,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526889169333</updated>
-      <workItem from="1526889172447" duration="4676000" />
+      <workItem from="1526889172447" duration="7350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4676000" />
+    <option name="totallyTimeSpent" value="7350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -212,9 +273,9 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32948583" />
       <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -285,13 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/layouts/_default/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -386,17 +440,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/layouts/partials/blog.html">
+    <entry file="file://$PROJECT_DIR$/src/css/plugin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="38">
+          <caret line="1154" column="74" selection-start-line="1154" selection-start-column="74" selection-end-line="1154" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/plugin.css">
+    <entry file="file://$PROJECT_DIR$/site/layouts/_default/li.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/layouts/partials/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1156" column="354" selection-start-line="1156" selection-start-column="354" selection-end-line="1156" selection-end-column="354" />
+        <state relative-caret-position="736">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/layouts/_default/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/layouts/_default/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="49" lean-forward="true" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/layouts/post/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="93" />
         </state>
       </provider>
     </entry>

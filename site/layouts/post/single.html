@@ -1,15 +1,97 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
+<!-- Preloader Start -->
+<div class="preloader">
+  <div class="rounder"></div>
+</div>
+<!-- Preloader End -->
+
+
+
+
+<div id="main">
+  <div class="container">
+    <div class="row">
+
+      <!-- Blog Post (Right Sidebar) Start -->
+      <div class="col-md-12">
+        <div class="col-md-12 page-body">
+          <div class="row">
+
+
+            <div class="sub-title">
+              <a href="/" title="Go to Home Page"><h2>Back Home</h2></a>
+              <!--<a href="#comment" class="smoth-scroll"><i class="icon-bubbles"></i></a>-->
+            </div>
+
+
+            <div class="col-md-12 content-page">
+              <div class="col-md-12 blog-post">
+
+
+                <!-- Post Headline Start -->
+                <div class="post-title">
+                  <h1>{{.Title}}</h1>
+                </div>
+                <!-- Post Headline End -->
+
+
+                <!-- Post Detail Start -->
+                <div class="post-info">
+                  <span>{{ .Date.Format "Mon, Jan 2, 2006" }} / Read in {{ .ReadingTime }} minutes</span>
+                </div>
+                <!-- Post Detail End -->
+
+
+                <p>{{ .Description }}</p>
+                  {{ if .Params.image }}
+                    <div class="post-image margin-top-40 margin-bottom-40">
+                      <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+                    </div>
+                  {{ end }}
+
+                {{ .Content }}
+
+                <!-- Post Comment (Disqus) Start -->
+                <div id="comment" class="comment">
+                  <h3>Discuss about post</h3>
+
+
+                  <div id="disqus_thread"></div>
+                  <script>
+
+                      /**
+                       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                      /*
+                      var disqus_config = function () {
+                      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                      };
+                      */
+                      (function() { // DON'T EDIT BELOW THIS LINE
+                          var d = document, s = d.createElement('script');
+                          s.src = 'https://coder-fyi.disqus.com/embed.js';
+                          s.setAttribute('data-timestamp', +new Date());
+                          (d.head || d.body).appendChild(s);
+                      })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+                </div>
+                <!-- Post Comment (Disqus) End -->
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Blog Post (Right Sidebar) End -->
+
+      </div>
     </div>
   </div>
-{{ end }}
+
+
+  {{ end }}
