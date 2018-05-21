@@ -22,7 +22,7 @@
 
 						<div class="col-md-12 content-page">
 
-							{{ range (.Paginator 2).Pages.ByPublishDate }}
+							{{ range (.Paginator 10).Pages.ByPublishDate }}
 									{{ .Render "li" }}
 							{{ end }}
 
