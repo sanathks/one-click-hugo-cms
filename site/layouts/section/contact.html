@@ -1,23 +1,87 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+<!-- Preloader Start -->
+<div class="preloader">
+	<div class="rounder"></div>
+</div>
+<!-- Preloader End -->
 
-		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+
+
+<div id="main">
+	<div class="container">
+		<div class="row">
+
+			<!-- Contact (Right Sidebar) Start -->
+			<div class="col-md-12">
+				<div class="col-md-12 page-body">
+					<div class="row">
+
+
+						<div class="sub-title">
+							<h2>coder.fyi</h2>
+							<a href="/"><i class="icon-home"></i></a>
+						</div>
+
+
+						<div class="col-md-12 content-page">
+							<div class="col-md-12 blog-post">
+
+
+								<!-- Contact Me Start -->
+								<div class="post-title margin-top-70">
+									<h1>Contact <span class="main-color">Me</span></h1>
+								</div>
+
+
+								<div class="row margin-top-30">
+									<div class="col-md-12">
+										<form name="contact" netlify method="post">
+
+												<div class="row">
+
+														<div class="col-sm-6">
+															<div class="form-group">
+																<input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+															</div>
+														</div>
+
+														<div class="col-sm-6">
+															<div class="form-group">
+																<input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
+															</div>
+														</div>
+
+													<div class="col-sm-12">
+														<div class="textarea-message form-group">
+															<textarea id="message" name="message" class="textarea-message form-control" placeholder="Your Message" rows="5"></textarea>
+														</div>
+													</div>
+
+												</div>
+
+
+												<div class="text-center">
+													<button type="submit" class="load-more-button">Send</button>
+												</div>
+
+										</form>
+									</div>
+								</div>
+							</div>
+							<!-- Contact Me End -->
+
+
+						</div>
+					</div>
 				</div>
-			{{ end }}
+
+			</div>
+			<!-- Contact (Right Sidebar) End -->
+
 		</div>
-
-		{{ partial "contact-form" . }}
-
 	</div>
 </div>
 
